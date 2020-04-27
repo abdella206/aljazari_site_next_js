@@ -30,7 +30,7 @@ class IndexPage extends React.Component {
             clearTimeout(this.timeoutId)
         }
     }
-
+//=================================================================================
     handleOpenArticle(article) {
         this.setState({
             isArticleVisible: !this.state.isArticleVisible,
@@ -49,7 +49,7 @@ class IndexPage extends React.Component {
             })
         }, 350)
     }
-
+//==================================================================================
     handleCloseArticle() {
         this.setState({
             articleTimeout: !this.state.articleTimeout
@@ -68,12 +68,14 @@ class IndexPage extends React.Component {
             })
         }, 350)
     }
+
+    
     render() {
         return (
             <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? "is-article-visible" : ""}`}>
                 <div>
                     <Head>
-                        <title>Next.js Starter</title>
+                        <title>Aljazri</title>
                         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i" rel="stylesheet" />
                     </Head>
 
