@@ -1,9 +1,3 @@
-# nextjs-starter-dimension
-A Next.js starter based on the Dimension site template, designed by HTML5 UP. Check out https://codebushi.com/nextjs-website-starters/ for more Next.js starters and templates.
-
-## Preview
-
-http://nextjs-dimension.surge.sh/
 
 ## Getting Started
 
